@@ -1,6 +1,6 @@
 """
-Haolin Ye , 1931141
-Xiaoming Zhang, 1931049
+Haolin Y
+Xiaoming Zhang
 Tuesday , May 4th
 R. Vincent , instructor
 Final Project
