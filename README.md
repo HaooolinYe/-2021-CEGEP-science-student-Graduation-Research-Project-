@@ -8,10 +8,10 @@ R. Vincent, instructor
 420-LCU-05: Programming Techniques and Application
 
 ## About this project
-This is third problem of the 2020 Canadian Computing Competition, Senior level. Following the instruction of this problem, “Search for Strings”,  the program is able to take two input strings and return an integer that is the times of the distinct permutations of the short string appearing in the long string.
+This is third problem of the 2020 Canadian Computing Competition, Senior level. Following the instruction of this problem, “Search for Strings”,  the program is able to take two input strings and return an integer that is the number of times which the distinct permutations of the short string occurs in the long string.
 
 ## Sounds Easy, no...?
-This problem may sounds easy the first time you see it, because it can be done nin just a few lines of code in the language you are familiar with. Yet, if you check the CCC contest website. We are expecting to have large input file...we are talking about <strong> ten thousand characters </strong>!
+This problem may sounds easy the first time you see it, because it can be done in just a few lines of code in the language you are familiar with. Yet, if you go on the CCC contest website, the program should expect to receive large input file...we are talking about <strong> ten thousand characters </strong>!
 A program is said to be valid if it can return the correct output in less than 3 seconds. Spoiler,even if you realize the hash can be helpful for solving this problem, it is still really hard for a hashing method in Java or Python to get you into the 3 seconds!( We tried it in C, and (un)fortunately C wins again with the exact same algorithm using hash).
 Our final version of the program satisty the 3-second rule however, and it explicitely returns the output in less than 1 second for every test cases CCC gives!! inclusing the 10 thousand one, haha.
 
