@@ -1,12 +1,13 @@
-# -2021-CEGEP-science-Graduation-Research-Project-
+## Searching for Strings
 Searching for Strings with length over ten thousand... ...
 
 Team members: Haolin Ye(1931141) and Xiaoming Zhang(1931049)
-R. Vincent, instructor
-420-LCU-05: Programming Techniques and Application
-Final Project
 
-Manual
+R. Vincent, instructor
+
+420-LCU-05: Programming Techniques and Application
+
+## Manual
 This program is a solution to the third problem of the 2020 Canadian Computing Competition, Senior level. Following the instruction of this problem, “Search for Strings”,  the program is able to take two input strings and return an integer that is the times of the distinct permutations of the short string appearing in the long string. If both strings are empty, the program assumes that the user wants to quit. With the Rolling Hash method that is implemented in this program, the program is capable of handling strings that have over ten-thousand lengths, and still prints the correct outcome for the user in less than one second.
 
 For example, if the input value for the short string is “aab” and long string is “abacabaa”, the program will print:“The distinct permutations of the short string appears in the long string 2 times”. This is because the permutations of  “aab” are {“aab”, “aba”, “baa”}, and two of them appears in the long string, “abacabaa”. Therefore, the program says the distinct permutations appear twice.
