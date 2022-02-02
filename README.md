@@ -36,4 +36,4 @@ The improvements we made:
 * Third version: We replace the count() method with two histograms that only takes O(1) time to compute.This passes 117 tests in CCC 2020 Senior Problem 3.
 * Final version: Based one the updated version of histogram, we implement the rolling hash method to get the hash values of all matched substrings and store these in that list. This passes all 127 tests in CCC 2020 Senior Problem 3 and each time returns the correct output in less then 0.4 second, thought some of the input has a length over ten thousand.
 
-Check out this if you are interested in the documentation of this project.
+Check out <a href = "https://github.com/HaooolinYe/-2021-CEGEP-science-student-Graduation-Research-Project-/blob/main/Documentation.docx">this</a> if you are interested in the documentation of this project.
