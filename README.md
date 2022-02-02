@@ -29,7 +29,7 @@ For example, if the input value for the short string is “aab” and long strin
 
 
 
-## Improvement, maybe??
+## Improvement? Sure thing!
 * Calculating the upper and lower bound, be aware of the space left for improvement
 * Dynamic programming feels the right way to give us a same or more optimal solution
 
