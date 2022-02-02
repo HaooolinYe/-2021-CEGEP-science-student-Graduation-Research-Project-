@@ -19,6 +19,11 @@ Our final version of the program satisty the 3-second rule however, and it expli
 As we mentioned, we put our hope on improving the hash method. If you don't know about <a href="https://computersciencewiki.org/index.php/Hashing"> hash </a>, then there are tons of articles and videos out there that explains it well,so feel free to check those out. I <strong> strongly </strong>recommand this <a href="https://www.youtube.com/watch?v=FhNJ6aikTVI">Youtube Video</a> on the hash data structures, which helps you understand why hash and why it makes things fast.
 
 The hash method we are using here, is call the rolling hash method. For this algorithm, if you want to know in details, you can check out the websites below or download the our python program to check it out. I do find some dynamic programming idea in this algorithm as we are building a table to store the information we want, rather than hash every strings we see. Once you have the table and the indices of a subsstring, knowing the hash value should just take O(1) time which is amazing! Leave an issue if what I said feels wrong to you; otherwise, enjoy the fun of the algorithm!
+## Manual
+* If both strings are empty, the program assumes that the user wants to quit.
+* Else,the program is able to take two input strings and return an integer that is the times of the distinct permutations of the short string appearing in the long string.
+ 
+For example, if the input value for the short string is “aab” and long string is “abacabaa”, the program will print:“The distinct permutations of the short string appears in the long string 2 times”. This is because the permutations of  “aab” are {“aab”, “aba”, “baa”}, and two of them appears in the long string, “abacabaa”. Therefore, the program says the distinct permutations appear twice.
 
 ## Improvement, maybe??
 * Calculating the upper and lower bound, be aware of the space left for improvement
