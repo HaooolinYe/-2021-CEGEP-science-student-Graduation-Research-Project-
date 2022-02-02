@@ -25,6 +25,10 @@ The hash method we are using here, is call the rolling hash method. For this alg
  
 For example, if the input value for the short string is “aab” and long string is “abacabaa”, the program will print:“The distinct permutations of the short string appears in the long string 2 times”. This is because the permutations of  “aab” are {“aab”, “aba”, “baa”}, and two of them appears in the long string, “abacabaa”. Therefore, the program says the distinct permutations appear twice.
 
+![image](https://user-images.githubusercontent.com/90864900/152100062-070dd2f9-c711-4d27-8208-e79af9ff2714.png)
+
+
+
 ## Improvement, maybe??
 * Calculating the upper and lower bound, be aware of the space left for improvement
 * Dynamic programming feels the right way to give us a same or more optimal solution
