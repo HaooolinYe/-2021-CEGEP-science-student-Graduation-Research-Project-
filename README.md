@@ -30,7 +30,7 @@ For example, if the input value for the short string is “aab” and long strin
 
 
 ## Improvement? Sure thing!
-* Calculating the upper and lower bound, be aware of the space left for improvement
+* Calculating the upper and lower bound, be aware of the space left for the improvement
 * Dynamic programming feels the right way to give us a same or more optimal solution
 
 Websites that we found helpful:
