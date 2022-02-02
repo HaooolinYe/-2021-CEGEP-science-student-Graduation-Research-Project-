@@ -1,4 +1,4 @@
-## Searching for Strings
+## Searching for Permutations of Strings
 Searching for Strings with length over ten thousand... ...
 
 Team members: Haolin Ye(1931141) and Xiaoming Zhang(1931049)
