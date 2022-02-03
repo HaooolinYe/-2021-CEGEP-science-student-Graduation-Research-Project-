@@ -23,6 +23,13 @@ As we mentioned, we put our hope on improving the hash method. If you don't know
 
 The hash method we are using here, is call the rolling hash method. For this algorithm, if you want to know in details, you can check out the websites below or download the our python program to check it out. I do find some dynamic programming idea in this algorithm as we are building a table to store the information we want, rather than hash every strings we see. Once you have the table and the indices of a subsstring, knowing the hash value should just take O(1) time which is amazing! Leave an issue if what I said feels wrong to you; otherwise, enjoy the fun of the algorithm!
 ## Manual
+### Python
+As this is a program written in python, make sure Python is installed on your machine.
+Using ```python --version``` to check if you have python available.
+Every methods and classes used for this program are built-in into python, so no extra packages need to be installed before running the prorgam.
+
+-------------------------------------------------------
+### Valid Inputs
 * If both strings are empty, the program assumes that the user wants to quit.
 * Else,the program is able to take two input strings and return an integer that is the times of the distinct permutations of the short string appearing in the long string.
  
