@@ -7,6 +7,9 @@ R. Vincent, instructor
 
 420-LCU-05: Programming Techniques and Application
 
+<img src="https://user-images.githubusercontent.com/90864900/152258852-9fe4bb1a-ca57-4357-af92-f9ba6097db11.png" height=300 width=300>
+
+
 ## About this project
 This is third problem of the 2020 Canadian Computing Competition, Senior level. Following the instruction of this problem, “Search for Strings”,  the program is able to take two input strings and return an integer that is the number of times which the distinct permutations of the short string occurs in the long string.
 
