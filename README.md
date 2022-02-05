@@ -1,3 +1,5 @@
+<div id="top"></div>
+
 ## Searching for Permutations of Strings
 Searching for Strings with length over ten thousand... ...
 
@@ -22,6 +24,9 @@ Our final version of the program satisty the 3-second rule however, and it expli
 As we mentioned, we put our hope on improving the hash method. If you don't know about <a href="https://computersciencewiki.org/index.php/Hashing"> hash </a>, then there are tons of articles and videos out there that explains it well,so feel free to check those out. I <strong> strongly </strong>recommand this <a href="https://www.youtube.com/watch?v=FhNJ6aikTVI">Youtube Video</a> on the hash data structures, which helps you understand why hash and why it makes things fast.
 
 The hash method we are using here, is call the rolling hash method. For this algorithm, if you want to know in details, you can check out the websites below or download the our python program to check it out. I do find some dynamic programming idea in this algorithm as we are building a table to store the information we want, rather than hash every strings we see. Once you have the table and the indices of a subsstring, knowing the hash value should just take O(1) time which is amazing! Leave an issue if what I said feels wrong to you; otherwise, enjoy the fun of the algorithm!
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Manual
 ### Python
 As this is a program written in python, make sure Python is installed on your machine.
@@ -37,7 +42,7 @@ For example, if the input value for the short string is “aab” and long strin
 
 ![image](https://user-images.githubusercontent.com/90864900/152100062-070dd2f9-c711-4d27-8208-e79af9ff2714.png)
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Improvement? Sure thing!
 * Calculating the upper and lower bound, be aware of the space left for the improvement
@@ -46,6 +51,8 @@ For example, if the input value for the short string is “aab” and long strin
 Websites that we found helpful:
 * https://courses.csail.mit.edu/6.006/spring11/rec/rec06.pdf
 * https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Documentation
 The improvements we made:
@@ -56,3 +63,5 @@ The improvements we made:
 * Final version: Based one the updated version of histogram, we implement the rolling hash method to get the hash values of all matched substrings and store these in that list. This passes all 127 tests in CCC 2020 Senior Problem 3 and each time returns the correct output in less then 0.4 second, thought some of the input has a length over ten thousand.
 
 Check out <a href = "https://github.com/HaooolinYe/-2021-CEGEP-science-student-Graduation-Research-Project-/blob/main/Documentation.docx">this</a> if you are interested in the documentation of this project.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
