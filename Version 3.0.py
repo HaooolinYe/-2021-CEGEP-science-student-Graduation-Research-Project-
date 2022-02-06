@@ -31,10 +31,10 @@ while True:
 
     power = (P ** (S_length)) & MASK
 
-    for l in short_s:
+    for l in short_s: # O(N) where N = len(short)s)
         lis[x.get(l)] += 1  # histogram for the short_s
 
-    for i, l in enumerate(long_s):
+    for i, l in enumerate(long_s): # O(M) since the following commands are all in O(1)
         test = True
         h_tab[i + 1] = ((h_tab[i] * P) + x.get(l)) & MASK
         histogram[x.get(l)] += 1   # the times that the new letter appears in the sub_str += 1
