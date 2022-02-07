@@ -31,7 +31,7 @@ The hash method we are using here, is call the rolling hash method. For this alg
 ### Python
 As this is a program written in python, make sure Python is installed on your machine.
 Using ```python --version``` to check if you have python available.
-Every methods and classes used for this program are built-in into python, so no extra packages need to be installed before running the prorgam.
+Every methods and classes used for this program are built-in in python, so no extra packages need to be installed before running the prorgam.
 
 -------------------------------------------------------
 ### Valid Inputs
